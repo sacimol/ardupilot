@@ -75,7 +75,7 @@ void ModeDrawStar::pos_control_run()
 
 void ModeDrawStar::generate_star_path()
 {
-    float radius_cm = 1000.0;
+    float radius_cm = g2.star_radius_cm;
 
     wp_nav->get_wp_stopping_point(star_points[0]);
 
